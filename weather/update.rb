@@ -41,7 +41,7 @@ if response.code == "200"
 		if temperature.nil?
 			formatted_temperature = "N/A"
 		else
-			formatted_temperature = "%0.1f \'b0F" % ((temperature * 1.8) + 32) # convert from C to F with RTF escape
+			formatted_temperature = "%0.1f \\\\'b0F" % ((temperature * 1.8) + 32) # convert from C to F, with RTF escape
 		end
 		
 		pressure = properties["barometricPressure"]["value"]
