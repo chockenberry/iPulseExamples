@@ -29,6 +29,6 @@
 */15 * * * * /usr/local/weather/update.sh
 ```
 
-* In iPulse Settings, go to the Other panel and "Set User Information File…" to `/usr/local/weather/weather.txt`.
+* In iPulse Settings, go to the Other panel and "Set User Information File…" to `/usr/local/weather/weather.rtf`.
 
 * Hover over the left-right corner of the round window and the text should appear.
