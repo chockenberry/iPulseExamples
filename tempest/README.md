@@ -1,5 +1,8 @@
 # Setup Tempest Script
 
+If you have a Tempest weather station and account, you can use this script
+to get the current conditions from your device.
+
 * Create the script folder with:
 
 ```
@@ -10,6 +13,8 @@
 ```
 
 * Copy `update.rb` and `update.sh` to `/usr/local/tempest`.
+
+* Edit the `update.rb` file: you will need your station ID and an API key. See file for more information.
 
 * Test that script works: a file named `tempest.rtf` should be created:
 
